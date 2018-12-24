@@ -1,0 +1,14 @@
+[package]
+name = "chip8"
+version = "0.1.0"
+authors = ["Pierre Leidbring <pierre.leidbring@gmail.com>"]
+
+[lib]
+name = "chip8"
+path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = {version = "0.2.29", features = ["nightly"]}
+rand = "*"
+js-sys = "0.3.6"

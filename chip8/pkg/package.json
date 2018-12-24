@@ -1,0 +1,15 @@
+{
+  "name": "chip8",
+  "collaborators": [
+    "Pierre Leidbring <pierre.leidbring@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "chip8_bg.wasm",
+    "chip8.js",
+    "chip8.d.ts"
+  ],
+  "module": "chip8.js",
+  "types": "chip8.d.ts",
+  "sideEffects": "false"
+}

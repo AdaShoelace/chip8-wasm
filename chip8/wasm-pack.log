@@ -1,0 +1,1571 @@
+Nov 25 17:57:49.605 ERRO crate-type must be cdylib to compile to wasm32-unknown-unknown. Add the following to your Cargo.toml file:
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+Nov 25 17:59:04.108 ERRO Compiling your crate to WebAssembly
+Nov 25 17:59:45.036 ERRO Compiling your crate to WebAssembly
+Nov 25 18:01:16.457 ERRO Compiling your crate to WebAssembly
+Nov 25 18:03:24.098 ERRO Compiling your crate to WebAssembly
+Nov 25 18:03:55.343 ERRO Compiling your crate to WebAssembly
+Nov 25 18:04:50.556 ERRO Compiling your crate to WebAssembly
+Nov 25 18:05:29.238 ERRO Compiling your crate to WebAssembly
+Nov 25 18:06:05.139 ERRO Compiling your crate to WebAssembly
+Nov 25 18:06:39.892 ERRO Compiling your crate to WebAssembly
+Nov 25 18:18:02.648 ERRO Compiling your crate to WebAssembly
+Nov 25 18:25:19.709 ERRO Compiling your crate to WebAssembly
+Nov 25 18:32:57.205 ERRO Compiling your crate to WebAssembly
+Nov 25 18:33:15.377 ERRO Compiling your crate to WebAssembly
+Nov 25 18:33:55.559 ERRO Compiling your crate to WebAssembly
+Nov 25 18:34:16.496 ERRO Compiling your crate to WebAssembly
+Nov 25 18:34:38.986 ERRO Compiling your crate to WebAssembly
+Nov 25 18:35:33.733 ERRO Running the wasm-bindgen CLI
+Nov 25 18:38:36.302 ERRO Running the wasm-bindgen CLI
+Nov 25 18:59:32.750 ERRO Compiling your crate to WebAssembly
+Nov 25 19:09:54.406 ERRO Compiling your crate to WebAssembly
+Nov 25 19:11:26.231 ERRO Compiling your crate to WebAssembly
+Nov 25 19:12:42.553 ERRO Compiling your crate to WebAssembly
+Nov 25 19:38:03.987 ERRO Compiling your crate to WebAssembly
+Nov 25 19:38:34.073 ERRO Compiling your crate to WebAssembly
+Nov 25 19:39:12.973 ERRO Compiling your crate to WebAssembly
+Nov 25 19:43:44.166 ERRO Compiling your crate to WebAssembly
+Nov 25 19:44:42.804 INFO Running build command...
+Nov 25 19:44:42.805 INFO Checking rustc version...
+Nov 25 19:44:42.823 INFO rustc version is 32.
+Nov 25 19:44:42.823 INFO Checking crate configuration...
+Nov 25 19:44:42.823 INFO Crate is correctly configured.
+Nov 25 19:44:42.823 INFO Adding wasm-target...
+Nov 25 19:44:42.823 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 19:44:42.866 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 19:44:42.867 INFO Adding wasm-target was successful.
+Nov 25 19:44:42.867 INFO Building wasm...
+Nov 25 19:44:42.867 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 19:44:42.904 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 19:44:42.992 INFO cargo build (stderr): error[E0277]: the trait bound `engine::chip::Chip: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 19:44:42.992 INFO cargo build (stderr):   --> src/lib.rs:11:1
+Nov 25 19:44:42.993 INFO cargo build (stderr):    |
+Nov 25 19:44:42.993 INFO cargo build (stderr): 11 | #[wasm_bindgen]
+Nov 25 19:44:42.994 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `engine::chip::Chip`
+Nov 25 19:44:42.994 INFO cargo build (stderr):    |
+Nov 25 19:44:42.994 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::ReturnWasmAbi` for `engine::chip::Chip`
+Nov 25 19:44:42.994 INFO cargo build (stderr): 
+Nov 25 19:44:42.998 INFO cargo build (stderr): error: aborting due to previous error
+Nov 25 19:44:42.998 INFO cargo build (stderr): 
+Nov 25 19:44:42.998 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 19:44:43.003 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 19:44:43.003 INFO cargo build (stderr): 
+Nov 25 19:44:43.003 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 19:44:43.004 ERRO Compiling your crate to WebAssembly
+Nov 25 19:45:16.106 INFO Running build command...
+Nov 25 19:45:16.107 INFO Checking rustc version...
+Nov 25 19:45:16.123 INFO rustc version is 32.
+Nov 25 19:45:16.123 INFO Checking crate configuration...
+Nov 25 19:45:16.123 INFO Crate is correctly configured.
+Nov 25 19:45:16.123 INFO Adding wasm-target...
+Nov 25 19:45:16.123 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 19:45:16.163 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 19:45:16.164 INFO Adding wasm-target was successful.
+Nov 25 19:45:16.164 INFO Building wasm...
+Nov 25 19:45:16.164 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 19:45:16.199 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 19:45:16.286 INFO cargo build (stderr): error[E0277]: the trait bound `engine::chip::Chip: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 19:45:16.286 INFO cargo build (stderr):   --> src/lib.rs:11:1
+Nov 25 19:45:16.286 INFO cargo build (stderr):    |
+Nov 25 19:45:16.287 INFO cargo build (stderr): 11 | #[wasm_bindgen]
+Nov 25 19:45:16.287 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `engine::chip::Chip`
+Nov 25 19:45:16.287 INFO cargo build (stderr):    |
+Nov 25 19:45:16.288 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::ReturnWasmAbi` for `engine::chip::Chip`
+Nov 25 19:45:16.288 INFO cargo build (stderr): 
+Nov 25 19:45:16.293 INFO cargo build (stderr): error: aborting due to previous error
+Nov 25 19:45:16.293 INFO cargo build (stderr): 
+Nov 25 19:45:16.293 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 19:45:16.298 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 19:45:16.298 INFO cargo build (stderr): 
+Nov 25 19:45:16.299 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 19:45:16.300 ERRO Compiling your crate to WebAssembly
+Nov 25 20:11:00.994 INFO Running build command...
+Nov 25 20:11:00.995 INFO Checking rustc version...
+Nov 25 20:11:01.011 INFO rustc version is 32.
+Nov 25 20:11:01.011 INFO Checking crate configuration...
+Nov 25 20:11:01.011 INFO Crate is correctly configured.
+Nov 25 20:11:01.011 INFO Adding wasm-target...
+Nov 25 20:11:01.012 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:11:01.052 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:11:01.053 INFO Adding wasm-target was successful.
+Nov 25 20:11:01.053 INFO Building wasm...
+Nov 25 20:11:01.053 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:11:01.089 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:11:01.160 INFO cargo build (stderr): error[E0412]: cannot find type `RunMode` in this scope
+Nov 25 20:11:01.160 INFO cargo build (stderr):   --> src/lib.rs:12:25
+Nov 25 20:11:01.160 INFO cargo build (stderr):    |
+Nov 25 20:11:01.161 INFO cargo build (stderr): 12 | pub fn getChip(runMode: RunMode) -> Chip {
+Nov 25 20:11:01.161 INFO cargo build (stderr):    |                         ^^^^^^^ not found in this scope
+Nov 25 20:11:01.162 INFO cargo build (stderr): help: possible candidate is found in another module, you can import it into scope
+Nov 25 20:11:01.163 INFO cargo build (stderr):    |
+Nov 25 20:11:01.164 INFO cargo build (stderr): 7  | use engine::chip::RunMode;
+Nov 25 20:11:01.164 INFO cargo build (stderr):    |
+Nov 25 20:11:01.165 INFO cargo build (stderr): 
+Nov 25 20:11:01.187 INFO cargo build (stderr): error[E0277]: the trait bound `engine::chip::Chip: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:11:01.187 INFO cargo build (stderr):   --> src/lib.rs:11:1
+Nov 25 20:11:01.187 INFO cargo build (stderr):    |
+Nov 25 20:11:01.188 INFO cargo build (stderr): 11 | #[wasm_bindgen]
+Nov 25 20:11:01.188 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `engine::chip::Chip`
+Nov 25 20:11:01.189 INFO cargo build (stderr):    |
+Nov 25 20:11:01.189 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::ReturnWasmAbi` for `engine::chip::Chip`
+Nov 25 20:11:01.189 INFO cargo build (stderr): 
+Nov 25 20:11:01.193 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Nov 25 20:11:01.194 INFO cargo build (stderr): 
+Nov 25 20:11:01.194 INFO cargo build (stderr): Some errors occurred: E0277, E0412.
+Nov 25 20:11:01.194 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Nov 25 20:11:01.200 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:11:01.201 INFO cargo build (stderr): 
+Nov 25 20:11:01.201 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:11:01.201 ERRO Compiling your crate to WebAssembly
+Nov 25 20:11:20.828 INFO Running build command...
+Nov 25 20:11:20.828 INFO Checking rustc version...
+Nov 25 20:11:20.844 INFO rustc version is 32.
+Nov 25 20:11:20.844 INFO Checking crate configuration...
+Nov 25 20:11:20.844 INFO Crate is correctly configured.
+Nov 25 20:11:20.845 INFO Adding wasm-target...
+Nov 25 20:11:20.845 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:11:20.883 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:11:20.884 INFO Adding wasm-target was successful.
+Nov 25 20:11:20.884 INFO Building wasm...
+Nov 25 20:11:20.886 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:11:20.919 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:11:21.000 INFO cargo build (stderr): error[E0277]: the trait bound `engine::chip::RunMode: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:11:21.000 INFO cargo build (stderr):   --> src/lib.rs:12:1
+Nov 25 20:11:21.001 INFO cargo build (stderr):    |
+Nov 25 20:11:21.001 INFO cargo build (stderr): 12 | #[wasm_bindgen]
+Nov 25 20:11:21.001 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `engine::chip::RunMode`
+Nov 25 20:11:21.002 INFO cargo build (stderr): 
+Nov 25 20:11:21.003 INFO cargo build (stderr): error[E0277]: the trait bound `engine::chip::Chip: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:11:21.003 INFO cargo build (stderr):   --> src/lib.rs:12:1
+Nov 25 20:11:21.003 INFO cargo build (stderr):    |
+Nov 25 20:11:21.003 INFO cargo build (stderr): 12 | #[wasm_bindgen]
+Nov 25 20:11:21.004 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `engine::chip::Chip`
+Nov 25 20:11:21.005 INFO cargo build (stderr):    |
+Nov 25 20:11:21.005 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::ReturnWasmAbi` for `engine::chip::Chip`
+Nov 25 20:11:21.005 INFO cargo build (stderr): 
+Nov 25 20:11:21.007 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Nov 25 20:11:21.007 INFO cargo build (stderr): 
+Nov 25 20:11:21.007 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 20:11:21.012 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:11:21.012 INFO cargo build (stderr): 
+Nov 25 20:11:21.012 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:11:21.013 ERRO Compiling your crate to WebAssembly
+Nov 25 20:12:25.580 INFO Running build command...
+Nov 25 20:12:25.580 INFO Checking rustc version...
+Nov 25 20:12:25.596 INFO rustc version is 32.
+Nov 25 20:12:25.596 INFO Checking crate configuration...
+Nov 25 20:12:25.597 INFO Crate is correctly configured.
+Nov 25 20:12:25.597 INFO Adding wasm-target...
+Nov 25 20:12:25.597 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:12:25.635 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:12:25.636 INFO Adding wasm-target was successful.
+Nov 25 20:12:25.636 INFO Building wasm...
+Nov 25 20:12:25.636 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:12:25.670 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:12:25.788 INFO cargo build (stderr): error[E0277]: the trait bound `engine::ram::Ram: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:12:25.788 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:12:25.788 INFO cargo build (stderr):    |
+Nov 25 20:12:25.789 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:12:25.789 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `engine::ram::Ram`
+Nov 25 20:12:25.789 INFO cargo build (stderr): 
+Nov 25 20:12:25.789 INFO cargo build (stderr): error[E0277]: the trait bound `engine::ram::Ram: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:12:25.789 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:12:25.789 INFO cargo build (stderr):    |
+Nov 25 20:12:25.790 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:12:25.790 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `engine::ram::Ram`
+Nov 25 20:12:25.790 INFO cargo build (stderr): 
+Nov 25 20:12:25.790 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:12:25.790 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:12:25.790 INFO cargo build (stderr):    |
+Nov 25 20:12:25.790 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:12:25.790 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:12:25.790 INFO cargo build (stderr):    |
+Nov 25 20:12:25.790 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:12:25.790 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.790 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.790 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.790 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.790 INFO cargo build (stderr):            and 16 others
+Nov 25 20:12:25.790 INFO cargo build (stderr): 
+Nov 25 20:12:25.791 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:12:25.791 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:12:25.791 INFO cargo build (stderr):    |
+Nov 25 20:12:25.791 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:12:25.791 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:12:25.791 INFO cargo build (stderr): 
+Nov 25 20:12:25.791 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:12:25.792 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:12:25.792 INFO cargo build (stderr):    |
+Nov 25 20:12:25.792 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:12:25.793 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:12:25.793 INFO cargo build (stderr):    |
+Nov 25 20:12:25.794 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:12:25.795 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.796 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.797 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.798 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.799 INFO cargo build (stderr):            and 16 others
+Nov 25 20:12:25.799 INFO cargo build (stderr): 
+Nov 25 20:12:25.799 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:12:25.799 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:12:25.799 INFO cargo build (stderr):    |
+Nov 25 20:12:25.800 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:12:25.800 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:12:25.800 INFO cargo build (stderr): 
+Nov 25 20:12:25.800 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:12:25.800 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:12:25.800 INFO cargo build (stderr):    |
+Nov 25 20:12:25.800 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:12:25.801 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:12:25.801 INFO cargo build (stderr):    |
+Nov 25 20:12:25.801 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:12:25.801 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.801 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.801 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.801 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.801 INFO cargo build (stderr):            and 16 others
+Nov 25 20:12:25.801 INFO cargo build (stderr): 
+Nov 25 20:12:25.801 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:12:25.801 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:12:25.801 INFO cargo build (stderr):    |
+Nov 25 20:12:25.801 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:12:25.801 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:12:25.801 INFO cargo build (stderr): 
+Nov 25 20:12:25.801 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:12:25.801 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:12:25.801 INFO cargo build (stderr):    |
+Nov 25 20:12:25.801 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:12:25.801 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:12:25.801 INFO cargo build (stderr):    |
+Nov 25 20:12:25.801 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:12:25.801 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.801 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.801 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.802 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:12:25.802 INFO cargo build (stderr):            and 16 others
+Nov 25 20:12:25.802 INFO cargo build (stderr): 
+Nov 25 20:12:25.802 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:12:25.802 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:12:25.802 INFO cargo build (stderr):    |
+Nov 25 20:12:25.802 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:12:25.802 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:12:25.802 INFO cargo build (stderr): 
+Nov 25 20:12:25.805 INFO cargo build (stderr): error: aborting due to 10 previous errors
+Nov 25 20:12:25.805 INFO cargo build (stderr): 
+Nov 25 20:12:25.805 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 20:12:25.811 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:12:25.811 INFO cargo build (stderr): 
+Nov 25 20:12:25.811 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:12:25.812 ERRO Compiling your crate to WebAssembly
+Nov 25 20:13:34.362 INFO Running build command...
+Nov 25 20:13:34.362 INFO Checking rustc version...
+Nov 25 20:13:34.377 INFO rustc version is 32.
+Nov 25 20:13:34.377 INFO Checking crate configuration...
+Nov 25 20:13:34.377 INFO Crate is correctly configured.
+Nov 25 20:13:34.377 INFO Adding wasm-target...
+Nov 25 20:13:34.378 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:13:34.419 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:13:34.420 INFO Adding wasm-target was successful.
+Nov 25 20:13:34.420 INFO Building wasm...
+Nov 25 20:13:34.421 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:13:34.458 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:13:34.543 INFO cargo build (stderr): error[E0277]: the trait bound `engine::chip::RunMode: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:13:34.544 INFO cargo build (stderr):   --> src/lib.rs:12:1
+Nov 25 20:13:34.544 INFO cargo build (stderr):    |
+Nov 25 20:13:34.544 INFO cargo build (stderr): 12 | #[wasm_bindgen]
+Nov 25 20:13:34.544 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `engine::chip::RunMode`
+Nov 25 20:13:34.544 INFO cargo build (stderr): 
+Nov 25 20:13:34.544 INFO cargo build (stderr): error[E0277]: the trait bound `engine::chip::Chip: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:13:34.545 INFO cargo build (stderr):   --> src/lib.rs:12:1
+Nov 25 20:13:34.546 INFO cargo build (stderr):    |
+Nov 25 20:13:34.546 INFO cargo build (stderr): 12 | #[wasm_bindgen]
+Nov 25 20:13:34.546 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `engine::chip::Chip`
+Nov 25 20:13:34.546 INFO cargo build (stderr):    |
+Nov 25 20:13:34.546 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::ReturnWasmAbi` for `engine::chip::Chip`
+Nov 25 20:13:34.546 INFO cargo build (stderr): 
+Nov 25 20:13:34.549 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Nov 25 20:13:34.550 INFO cargo build (stderr): 
+Nov 25 20:13:34.550 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 20:13:34.554 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:13:34.554 INFO cargo build (stderr): 
+Nov 25 20:13:34.555 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:13:34.555 ERRO Compiling your crate to WebAssembly
+Nov 25 20:13:44.798 INFO Running build command...
+Nov 25 20:13:44.798 INFO Checking rustc version...
+Nov 25 20:13:44.813 INFO rustc version is 32.
+Nov 25 20:13:44.813 INFO Checking crate configuration...
+Nov 25 20:13:44.813 INFO Crate is correctly configured.
+Nov 25 20:13:44.813 INFO Adding wasm-target...
+Nov 25 20:13:44.813 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:13:44.852 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:13:44.852 INFO Adding wasm-target was successful.
+Nov 25 20:13:44.852 INFO Building wasm...
+Nov 25 20:13:44.854 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:13:44.888 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:13:44.955 INFO cargo build (stderr): warning: unused import: `wasm_bindgen::prelude::*`
+Nov 25 20:13:44.955 INFO cargo build (stderr):  --> src/engine/mod.rs:5:5
+Nov 25 20:13:44.955 INFO cargo build (stderr):   |
+Nov 25 20:13:44.955 INFO cargo build (stderr): 5 | use wasm_bindgen::prelude::*;
+Nov 25 20:13:44.956 INFO cargo build (stderr):   |     ^^^^^^^^^^^^^^^^^^^^^^^^
+Nov 25 20:13:44.956 INFO cargo build (stderr):   |
+Nov 25 20:13:44.957 INFO cargo build (stderr):   = note: #[warn(unused_imports)] on by default
+Nov 25 20:13:44.957 INFO cargo build (stderr): 
+Nov 25 20:13:44.974 INFO cargo build (stderr): error[E0277]: the trait bound `engine::chip::RunMode: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:13:44.975 INFO cargo build (stderr):   --> src/lib.rs:12:1
+Nov 25 20:13:44.975 INFO cargo build (stderr):    |
+Nov 25 20:13:44.975 INFO cargo build (stderr): 12 | #[wasm_bindgen]
+Nov 25 20:13:44.976 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `engine::chip::RunMode`
+Nov 25 20:13:44.977 INFO cargo build (stderr): 
+Nov 25 20:13:44.977 INFO cargo build (stderr): error[E0277]: the trait bound `engine::chip::Chip: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:13:44.977 INFO cargo build (stderr):   --> src/lib.rs:12:1
+Nov 25 20:13:44.977 INFO cargo build (stderr):    |
+Nov 25 20:13:44.977 INFO cargo build (stderr): 12 | #[wasm_bindgen]
+Nov 25 20:13:44.979 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `engine::chip::Chip`
+Nov 25 20:13:44.979 INFO cargo build (stderr):    |
+Nov 25 20:13:44.979 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::ReturnWasmAbi` for `engine::chip::Chip`
+Nov 25 20:13:44.979 INFO cargo build (stderr): 
+Nov 25 20:13:44.981 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Nov 25 20:13:44.982 INFO cargo build (stderr): 
+Nov 25 20:13:44.982 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 20:13:44.986 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:13:44.986 INFO cargo build (stderr): 
+Nov 25 20:13:44.986 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:13:44.987 ERRO Compiling your crate to WebAssembly
+Nov 25 20:14:28.614 INFO Running build command...
+Nov 25 20:14:28.614 INFO Checking rustc version...
+Nov 25 20:14:28.630 INFO rustc version is 32.
+Nov 25 20:14:28.630 INFO Checking crate configuration...
+Nov 25 20:14:28.631 INFO Crate is correctly configured.
+Nov 25 20:14:28.631 INFO Adding wasm-target...
+Nov 25 20:14:28.631 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:14:28.671 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:14:28.672 INFO Adding wasm-target was successful.
+Nov 25 20:14:28.672 INFO Building wasm...
+Nov 25 20:14:28.672 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:14:28.707 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:14:28.790 INFO cargo build (stderr): error: macro attributes must be placed before `#[derive]`
+Nov 25 20:14:28.790 INFO cargo build (stderr):  --> src/engine/ram.rs:8:1
+Nov 25 20:14:28.790 INFO cargo build (stderr):   |
+Nov 25 20:14:28.791 INFO cargo build (stderr): 8 | #[wasm_bindgen]
+Nov 25 20:14:28.791 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^
+Nov 25 20:14:28.791 INFO cargo build (stderr): 
+Nov 25 20:14:28.800 INFO cargo build (stderr): error: aborting due to previous error
+Nov 25 20:14:28.801 INFO cargo build (stderr): 
+Nov 25 20:14:28.805 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:14:28.805 INFO cargo build (stderr): 
+Nov 25 20:14:28.805 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:14:28.807 ERRO Compiling your crate to WebAssembly
+Nov 25 20:14:50.979 INFO Running build command...
+Nov 25 20:14:50.979 INFO Checking rustc version...
+Nov 25 20:14:50.994 INFO rustc version is 32.
+Nov 25 20:14:50.994 INFO Checking crate configuration...
+Nov 25 20:14:50.994 INFO Crate is correctly configured.
+Nov 25 20:14:50.995 INFO Adding wasm-target...
+Nov 25 20:14:50.995 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:14:51.033 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:14:51.034 INFO Adding wasm-target was successful.
+Nov 25 20:14:51.035 INFO Building wasm...
+Nov 25 20:14:51.036 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:14:51.069 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:14:51.197 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:14:51.197 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:14:51.197 INFO cargo build (stderr):    |
+Nov 25 20:14:51.197 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:14:51.198 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:14:51.199 INFO cargo build (stderr):    |
+Nov 25 20:14:51.199 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:14:51.199 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.199 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.199 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.199 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.199 INFO cargo build (stderr):            and 16 others
+Nov 25 20:14:51.200 INFO cargo build (stderr): 
+Nov 25 20:14:51.201 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:14:51.201 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:14:51.202 INFO cargo build (stderr):    |
+Nov 25 20:14:51.202 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:14:51.202 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:14:51.203 INFO cargo build (stderr): 
+Nov 25 20:14:51.203 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:14:51.203 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:14:51.204 INFO cargo build (stderr):    |
+Nov 25 20:14:51.204 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:14:51.205 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:14:51.206 INFO cargo build (stderr):    |
+Nov 25 20:14:51.206 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:14:51.207 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.207 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.207 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.207 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.207 INFO cargo build (stderr):            and 16 others
+Nov 25 20:14:51.207 INFO cargo build (stderr): 
+Nov 25 20:14:51.207 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:14:51.207 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:14:51.207 INFO cargo build (stderr):    |
+Nov 25 20:14:51.207 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:14:51.207 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:14:51.208 INFO cargo build (stderr): 
+Nov 25 20:14:51.208 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:14:51.208 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:14:51.208 INFO cargo build (stderr):    |
+Nov 25 20:14:51.208 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:14:51.208 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:14:51.208 INFO cargo build (stderr):    |
+Nov 25 20:14:51.208 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:14:51.208 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.208 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.208 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.208 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.208 INFO cargo build (stderr):            and 16 others
+Nov 25 20:14:51.208 INFO cargo build (stderr): 
+Nov 25 20:14:51.208 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:14:51.208 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:14:51.208 INFO cargo build (stderr):    |
+Nov 25 20:14:51.208 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:14:51.208 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:14:51.209 INFO cargo build (stderr): 
+Nov 25 20:14:51.209 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:14:51.209 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:14:51.209 INFO cargo build (stderr):    |
+Nov 25 20:14:51.209 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:14:51.209 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:14:51.209 INFO cargo build (stderr):    |
+Nov 25 20:14:51.209 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:14:51.209 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.209 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.209 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.209 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.209 INFO cargo build (stderr):            and 16 others
+Nov 25 20:14:51.209 INFO cargo build (stderr): 
+Nov 25 20:14:51.209 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:14:51.209 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:14:51.209 INFO cargo build (stderr):    |
+Nov 25 20:14:51.209 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:14:51.210 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:14:51.210 INFO cargo build (stderr): 
+Nov 25 20:14:51.210 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 4096]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:14:51.210 INFO cargo build (stderr):  --> src/engine/ram.rs:7:1
+Nov 25 20:14:51.210 INFO cargo build (stderr):   |
+Nov 25 20:14:51.210 INFO cargo build (stderr): 7 | #[wasm_bindgen]
+Nov 25 20:14:51.210 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 4096]`
+Nov 25 20:14:51.210 INFO cargo build (stderr):   |
+Nov 25 20:14:51.210 INFO cargo build (stderr):   = help: the following implementations were found:
+Nov 25 20:14:51.210 INFO cargo build (stderr):             <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.210 INFO cargo build (stderr):             <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.210 INFO cargo build (stderr):             <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.210 INFO cargo build (stderr):             <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:14:51.210 INFO cargo build (stderr):           and 16 others
+Nov 25 20:14:51.210 INFO cargo build (stderr): 
+Nov 25 20:14:51.211 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 4096]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:14:51.211 INFO cargo build (stderr):  --> src/engine/ram.rs:7:1
+Nov 25 20:14:51.211 INFO cargo build (stderr):   |
+Nov 25 20:14:51.211 INFO cargo build (stderr): 7 | #[wasm_bindgen]
+Nov 25 20:14:51.211 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 4096]`
+Nov 25 20:14:51.211 INFO cargo build (stderr): 
+Nov 25 20:14:51.217 INFO cargo build (stderr): error: aborting due to 10 previous errors
+Nov 25 20:14:51.217 INFO cargo build (stderr): 
+Nov 25 20:14:51.218 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 20:14:51.222 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:14:51.223 INFO cargo build (stderr): 
+Nov 25 20:14:51.223 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:14:51.223 ERRO Compiling your crate to WebAssembly
+Nov 25 20:19:47.641 INFO Running build command...
+Nov 25 20:19:47.641 INFO Checking rustc version...
+Nov 25 20:19:47.657 INFO rustc version is 32.
+Nov 25 20:19:47.658 INFO Checking crate configuration...
+Nov 25 20:19:47.658 INFO Crate is correctly configured.
+Nov 25 20:19:47.658 INFO Adding wasm-target...
+Nov 25 20:19:47.658 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:19:47.708 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:19:47.709 INFO Adding wasm-target was successful.
+Nov 25 20:19:47.709 INFO Building wasm...
+Nov 25 20:19:47.709 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:19:47.746 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:19:47.890 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:19:47.890 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:19:47.891 INFO cargo build (stderr):    |
+Nov 25 20:19:47.891 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:19:47.892 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:19:47.892 INFO cargo build (stderr):    |
+Nov 25 20:19:47.892 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:19:47.892 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.892 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.892 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.892 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.892 INFO cargo build (stderr):            and 16 others
+Nov 25 20:19:47.893 INFO cargo build (stderr): 
+Nov 25 20:19:47.894 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:19:47.895 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:19:47.896 INFO cargo build (stderr):    |
+Nov 25 20:19:47.897 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:19:47.897 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:19:47.898 INFO cargo build (stderr): 
+Nov 25 20:19:47.898 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:19:47.898 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:19:47.899 INFO cargo build (stderr):    |
+Nov 25 20:19:47.899 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:19:47.899 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:19:47.900 INFO cargo build (stderr):    |
+Nov 25 20:19:47.900 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:19:47.901 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.901 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.901 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.901 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.902 INFO cargo build (stderr):            and 16 others
+Nov 25 20:19:47.902 INFO cargo build (stderr): 
+Nov 25 20:19:47.902 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:19:47.902 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:19:47.902 INFO cargo build (stderr):    |
+Nov 25 20:19:47.902 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:19:47.902 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:19:47.903 INFO cargo build (stderr): 
+Nov 25 20:19:47.903 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:19:47.903 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:19:47.903 INFO cargo build (stderr):    |
+Nov 25 20:19:47.903 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:19:47.903 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:19:47.903 INFO cargo build (stderr):    |
+Nov 25 20:19:47.903 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:19:47.904 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.904 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.904 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.904 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.904 INFO cargo build (stderr):            and 16 others
+Nov 25 20:19:47.905 INFO cargo build (stderr): 
+Nov 25 20:19:47.906 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:19:47.907 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:19:47.907 INFO cargo build (stderr):    |
+Nov 25 20:19:47.908 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:19:47.908 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:19:47.908 INFO cargo build (stderr): 
+Nov 25 20:19:47.908 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:19:47.908 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:19:47.908 INFO cargo build (stderr):    |
+Nov 25 20:19:47.908 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:19:47.908 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:19:47.908 INFO cargo build (stderr):    |
+Nov 25 20:19:47.908 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:19:47.908 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.908 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.908 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.908 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.908 INFO cargo build (stderr):            and 16 others
+Nov 25 20:19:47.909 INFO cargo build (stderr): 
+Nov 25 20:19:47.909 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:19:47.909 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:19:47.909 INFO cargo build (stderr):    |
+Nov 25 20:19:47.909 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:19:47.909 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:19:47.909 INFO cargo build (stderr): 
+Nov 25 20:19:47.909 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 4096]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:19:47.909 INFO cargo build (stderr):  --> src/engine/ram.rs:7:1
+Nov 25 20:19:47.909 INFO cargo build (stderr):   |
+Nov 25 20:19:47.909 INFO cargo build (stderr): 7 | #[wasm_bindgen]
+Nov 25 20:19:47.909 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 4096]`
+Nov 25 20:19:47.909 INFO cargo build (stderr):   |
+Nov 25 20:19:47.909 INFO cargo build (stderr):   = help: the following implementations were found:
+Nov 25 20:19:47.909 INFO cargo build (stderr):             <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.909 INFO cargo build (stderr):             <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.909 INFO cargo build (stderr):             <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.909 INFO cargo build (stderr):             <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:19:47.910 INFO cargo build (stderr):           and 16 others
+Nov 25 20:19:47.910 INFO cargo build (stderr): 
+Nov 25 20:19:47.910 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 4096]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:19:47.910 INFO cargo build (stderr):  --> src/engine/ram.rs:7:1
+Nov 25 20:19:47.910 INFO cargo build (stderr):   |
+Nov 25 20:19:47.910 INFO cargo build (stderr): 7 | #[wasm_bindgen]
+Nov 25 20:19:47.910 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 4096]`
+Nov 25 20:19:47.910 INFO cargo build (stderr): 
+Nov 25 20:19:47.913 INFO cargo build (stderr): error: aborting due to 10 previous errors
+Nov 25 20:19:47.913 INFO cargo build (stderr): 
+Nov 25 20:19:47.913 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 20:19:47.918 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:19:47.918 INFO cargo build (stderr): 
+Nov 25 20:19:47.918 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:19:47.919 ERRO Compiling your crate to WebAssembly
+Nov 25 20:26:57.141 INFO Running build command...
+Nov 25 20:26:57.141 INFO Checking rustc version...
+Nov 25 20:26:57.157 INFO rustc version is 32.
+Nov 25 20:26:57.157 INFO Checking crate configuration...
+Nov 25 20:26:57.157 INFO Crate is correctly configured.
+Nov 25 20:26:57.157 INFO Adding wasm-target...
+Nov 25 20:26:57.157 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:26:57.211 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:26:57.212 INFO Adding wasm-target was successful.
+Nov 25 20:26:57.212 INFO Building wasm...
+Nov 25 20:26:57.213 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:26:57.249 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:26:57.374 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:26:57.375 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:26:57.375 INFO cargo build (stderr):    |
+Nov 25 20:26:57.375 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:26:57.375 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:26:57.376 INFO cargo build (stderr):    |
+Nov 25 20:26:57.376 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:26:57.376 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.376 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.376 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.377 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.377 INFO cargo build (stderr):            and 16 others
+Nov 25 20:26:57.380 INFO cargo build (stderr): 
+Nov 25 20:26:57.381 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:26:57.382 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:26:57.382 INFO cargo build (stderr):    |
+Nov 25 20:26:57.382 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:26:57.382 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:26:57.383 INFO cargo build (stderr): 
+Nov 25 20:26:57.383 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:26:57.383 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:26:57.383 INFO cargo build (stderr):    |
+Nov 25 20:26:57.383 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:26:57.384 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:26:57.384 INFO cargo build (stderr):    |
+Nov 25 20:26:57.384 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:26:57.384 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.385 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.385 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.385 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.385 INFO cargo build (stderr):            and 16 others
+Nov 25 20:26:57.386 INFO cargo build (stderr): 
+Nov 25 20:26:57.386 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:26:57.386 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:26:57.386 INFO cargo build (stderr):    |
+Nov 25 20:26:57.387 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:26:57.387 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:26:57.387 INFO cargo build (stderr): 
+Nov 25 20:26:57.387 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:26:57.388 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:26:57.388 INFO cargo build (stderr):    |
+Nov 25 20:26:57.388 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:26:57.388 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:26:57.388 INFO cargo build (stderr):    |
+Nov 25 20:26:57.388 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:26:57.388 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.388 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.388 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.388 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.388 INFO cargo build (stderr):            and 16 others
+Nov 25 20:26:57.388 INFO cargo build (stderr): 
+Nov 25 20:26:57.388 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:26:57.389 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:26:57.389 INFO cargo build (stderr):    |
+Nov 25 20:26:57.389 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:26:57.389 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:26:57.389 INFO cargo build (stderr): 
+Nov 25 20:26:57.389 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:26:57.389 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:26:57.389 INFO cargo build (stderr):    |
+Nov 25 20:26:57.389 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:26:57.389 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:26:57.389 INFO cargo build (stderr):    |
+Nov 25 20:26:57.389 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:26:57.389 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.389 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.390 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.397 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.397 INFO cargo build (stderr):            and 16 others
+Nov 25 20:26:57.397 INFO cargo build (stderr): 
+Nov 25 20:26:57.397 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:26:57.397 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:26:57.397 INFO cargo build (stderr):    |
+Nov 25 20:26:57.397 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:26:57.397 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:26:57.398 INFO cargo build (stderr): 
+Nov 25 20:26:57.398 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 4096]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:26:57.398 INFO cargo build (stderr):  --> src/engine/ram.rs:9:1
+Nov 25 20:26:57.398 INFO cargo build (stderr):   |
+Nov 25 20:26:57.398 INFO cargo build (stderr): 9 | #[wasm_bindgen]
+Nov 25 20:26:57.398 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 4096]`
+Nov 25 20:26:57.398 INFO cargo build (stderr):   |
+Nov 25 20:26:57.398 INFO cargo build (stderr):   = help: the following implementations were found:
+Nov 25 20:26:57.398 INFO cargo build (stderr):             <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.398 INFO cargo build (stderr):             <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.398 INFO cargo build (stderr):             <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.398 INFO cargo build (stderr):             <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:26:57.398 INFO cargo build (stderr):           and 16 others
+Nov 25 20:26:57.398 INFO cargo build (stderr): 
+Nov 25 20:26:57.398 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 4096]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:26:57.399 INFO cargo build (stderr):  --> src/engine/ram.rs:9:1
+Nov 25 20:26:57.399 INFO cargo build (stderr):   |
+Nov 25 20:26:57.399 INFO cargo build (stderr): 9 | #[wasm_bindgen]
+Nov 25 20:26:57.399 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 4096]`
+Nov 25 20:26:57.399 INFO cargo build (stderr): 
+Nov 25 20:26:57.399 INFO cargo build (stderr): error: aborting due to 10 previous errors
+Nov 25 20:26:57.399 INFO cargo build (stderr): 
+Nov 25 20:26:57.399 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 20:26:57.404 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:26:57.404 INFO cargo build (stderr): 
+Nov 25 20:26:57.405 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:26:57.405 ERRO Compiling your crate to WebAssembly
+Nov 25 20:27:08.412 INFO Running build command...
+Nov 25 20:27:08.413 INFO Checking rustc version...
+Nov 25 20:27:08.429 INFO rustc version is 32.
+Nov 25 20:27:08.429 INFO Checking crate configuration...
+Nov 25 20:27:08.429 INFO Crate is correctly configured.
+Nov 25 20:27:08.430 INFO Adding wasm-target...
+Nov 25 20:27:08.430 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:27:08.469 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:27:08.469 INFO Adding wasm-target was successful.
+Nov 25 20:27:08.469 INFO Building wasm...
+Nov 25 20:27:08.470 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:27:08.509 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:27:08.585 INFO cargo build (stderr): error: #[wasm_bindgen] can only be applied to a function, struct, enum, impl, or extern block
+Nov 25 20:27:08.586 INFO cargo build (stderr):  --> src/engine/ram.rs:8:1
+Nov 25 20:27:08.586 INFO cargo build (stderr):   |
+Nov 25 20:27:08.586 INFO cargo build (stderr): 8 | type MemType = [u8;4096];
+Nov 25 20:27:08.587 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^^^^^^^^^^^
+Nov 25 20:27:08.587 INFO cargo build (stderr): 
+Nov 25 20:27:08.595 INFO cargo build (stderr): error: aborting due to previous error
+Nov 25 20:27:08.595 INFO cargo build (stderr): 
+Nov 25 20:27:08.599 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:27:08.599 INFO cargo build (stderr): 
+Nov 25 20:27:08.600 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:27:08.601 ERRO Compiling your crate to WebAssembly
+Nov 25 20:27:36.143 INFO Running build command...
+Nov 25 20:27:36.143 INFO Checking rustc version...
+Nov 25 20:27:36.156 INFO rustc version is 32.
+Nov 25 20:27:36.156 INFO Checking crate configuration...
+Nov 25 20:27:36.157 INFO Crate is correctly configured.
+Nov 25 20:27:36.157 INFO Adding wasm-target...
+Nov 25 20:27:36.157 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:27:36.198 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:27:36.199 INFO Adding wasm-target was successful.
+Nov 25 20:27:36.199 INFO Building wasm...
+Nov 25 20:27:36.200 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:27:36.234 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:27:36.316 INFO cargo build (stderr): error: #[wasm_bindgen] can only be applied to a function, struct, enum, impl, or extern block
+Nov 25 20:27:36.317 INFO cargo build (stderr):  --> src/engine/ram.rs:8:1
+Nov 25 20:27:36.317 INFO cargo build (stderr):   |
+Nov 25 20:27:36.317 INFO cargo build (stderr): 8 | type MemType = [u8;4096];
+Nov 25 20:27:36.317 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^^^^^^^^^^^
+Nov 25 20:27:36.318 INFO cargo build (stderr): 
+Nov 25 20:27:36.326 INFO cargo build (stderr): error: aborting due to previous error
+Nov 25 20:27:36.326 INFO cargo build (stderr): 
+Nov 25 20:27:36.331 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:27:36.331 INFO cargo build (stderr): 
+Nov 25 20:27:36.332 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:27:36.332 ERRO Compiling your crate to WebAssembly
+Nov 25 20:36:37.036 INFO Running build command...
+Nov 25 20:36:37.037 INFO Checking rustc version...
+Nov 25 20:36:37.055 INFO rustc version is 32.
+Nov 25 20:36:37.055 INFO Checking crate configuration...
+Nov 25 20:36:37.055 INFO Crate is correctly configured.
+Nov 25 20:36:37.055 INFO Adding wasm-target...
+Nov 25 20:36:37.057 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:36:37.100 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:36:37.101 INFO Adding wasm-target was successful.
+Nov 25 20:36:37.101 INFO Building wasm...
+Nov 25 20:36:37.101 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:36:37.141 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:36:37.218 INFO cargo build (stderr): error: #[wasm_bindgen] can only be applied to a function, struct, enum, impl, or extern block
+Nov 25 20:36:37.218 INFO cargo build (stderr):  --> src/engine/ram.rs:8:1
+Nov 25 20:36:37.219 INFO cargo build (stderr):   |
+Nov 25 20:36:37.219 INFO cargo build (stderr): 8 | type MemType = [u8;4096];
+Nov 25 20:36:37.220 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^^^^^^^^^^^
+Nov 25 20:36:37.220 INFO cargo build (stderr): 
+Nov 25 20:36:37.228 INFO cargo build (stderr): error: aborting due to previous error
+Nov 25 20:36:37.229 INFO cargo build (stderr): 
+Nov 25 20:36:37.234 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:36:37.234 INFO cargo build (stderr): 
+Nov 25 20:36:37.235 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:36:37.235 ERRO Compiling your crate to WebAssembly
+Nov 25 20:36:45.558 INFO Running build command...
+Nov 25 20:36:45.558 INFO Checking rustc version...
+Nov 25 20:36:45.573 INFO rustc version is 32.
+Nov 25 20:36:45.573 INFO Checking crate configuration...
+Nov 25 20:36:45.573 INFO Crate is correctly configured.
+Nov 25 20:36:45.573 INFO Adding wasm-target...
+Nov 25 20:36:45.573 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:36:45.612 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:36:45.613 INFO Adding wasm-target was successful.
+Nov 25 20:36:45.613 INFO Building wasm...
+Nov 25 20:36:45.613 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:36:45.649 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:36:45.701 INFO cargo build (stderr): error: chained comparison operators require parentheses
+Nov 25 20:36:45.701 INFO cargo build (stderr):   --> src/engine/ram.rs:19:25
+Nov 25 20:36:45.701 INFO cargo build (stderr):    |
+Nov 25 20:36:45.701 INFO cargo build (stderr): 19 |         let sprites: vec<vec<u8> = vec![
+Nov 25 20:36:45.702 INFO cargo build (stderr):    |                         ^^^^^^^
+Nov 25 20:36:45.702 INFO cargo build (stderr):    |
+Nov 25 20:36:45.703 INFO cargo build (stderr):    = help: use `::<...>` instead of `<...>` if you meant to specify type arguments
+Nov 25 20:36:45.704 INFO cargo build (stderr):    = help: or use `(...)` if you meant to specify fn arguments
+Nov 25 20:36:45.704 INFO cargo build (stderr): 
+Nov 25 20:36:45.705 INFO cargo build (stderr): error: chained comparison operators require parentheses
+Nov 25 20:36:45.705 INFO cargo build (stderr):   --> src/engine/ram.rs:19:29
+Nov 25 20:36:45.706 INFO cargo build (stderr):    |
+Nov 25 20:36:45.706 INFO cargo build (stderr): 19 |         let sprites: vec<vec<u8> = vec![
+Nov 25 20:36:45.706 INFO cargo build (stderr):    |                             ^^^^^^
+Nov 25 20:36:45.706 INFO cargo build (stderr):    |
+Nov 25 20:36:45.708 INFO cargo build (stderr):    = help: use `::<...>` instead of `<...>` if you meant to specify type arguments
+Nov 25 20:36:45.708 INFO cargo build (stderr):    = help: or use `(...)` if you meant to specify fn arguments
+Nov 25 20:36:45.708 INFO cargo build (stderr): 
+Nov 25 20:36:45.709 INFO cargo build (stderr): error: expected one of `!`, `+`, `,`, `::`, or `>`, found `=`
+Nov 25 20:36:45.709 INFO cargo build (stderr):   --> src/engine/ram.rs:19:34
+Nov 25 20:36:45.709 INFO cargo build (stderr):    |
+Nov 25 20:36:45.710 INFO cargo build (stderr): 19 |         let sprites: vec<vec<u8> = vec![
+Nov 25 20:36:45.710 INFO cargo build (stderr):    |             -------              ^ expected one of `!`, `+`, `,`, `::`, or `>` here
+Nov 25 20:36:45.711 INFO cargo build (stderr):    |             |
+Nov 25 20:36:45.711 INFO cargo build (stderr):    |             while parsing the type for `sprites`
+Nov 25 20:36:45.712 INFO cargo build (stderr): 
+Nov 25 20:36:45.785 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:36:45.786 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:36:45.786 INFO cargo build (stderr):    |
+Nov 25 20:36:45.786 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:36:45.786 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:36:45.786 INFO cargo build (stderr):    |
+Nov 25 20:36:45.786 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:36:45.786 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.786 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.786 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.786 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.786 INFO cargo build (stderr):            and 16 others
+Nov 25 20:36:45.786 INFO cargo build (stderr): 
+Nov 25 20:36:45.787 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:36:45.787 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:36:45.787 INFO cargo build (stderr):    |
+Nov 25 20:36:45.787 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:36:45.787 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:36:45.787 INFO cargo build (stderr): 
+Nov 25 20:36:45.792 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:36:45.792 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:36:45.792 INFO cargo build (stderr):    |
+Nov 25 20:36:45.792 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:36:45.792 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:36:45.792 INFO cargo build (stderr):    |
+Nov 25 20:36:45.792 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:36:45.792 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.793 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.793 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.793 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.793 INFO cargo build (stderr):            and 16 others
+Nov 25 20:36:45.793 INFO cargo build (stderr): 
+Nov 25 20:36:45.793 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:36:45.793 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:36:45.793 INFO cargo build (stderr):    |
+Nov 25 20:36:45.793 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:36:45.793 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:36:45.793 INFO cargo build (stderr): 
+Nov 25 20:36:45.793 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:36:45.793 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:36:45.793 INFO cargo build (stderr):    |
+Nov 25 20:36:45.793 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:36:45.793 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:36:45.793 INFO cargo build (stderr):    |
+Nov 25 20:36:45.793 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:36:45.793 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.793 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.793 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.793 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.793 INFO cargo build (stderr):            and 16 others
+Nov 25 20:36:45.793 INFO cargo build (stderr): 
+Nov 25 20:36:45.793 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:36:45.793 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:36:45.794 INFO cargo build (stderr):    |
+Nov 25 20:36:45.794 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:36:45.794 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:36:45.794 INFO cargo build (stderr): 
+Nov 25 20:36:45.794 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:36:45.794 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:36:45.794 INFO cargo build (stderr):    |
+Nov 25 20:36:45.794 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:36:45.794 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:36:45.794 INFO cargo build (stderr):    |
+Nov 25 20:36:45.794 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:36:45.794 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.794 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.794 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.794 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.794 INFO cargo build (stderr):            and 16 others
+Nov 25 20:36:45.794 INFO cargo build (stderr): 
+Nov 25 20:36:45.794 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:36:45.794 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:36:45.794 INFO cargo build (stderr):    |
+Nov 25 20:36:45.794 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:36:45.794 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:36:45.795 INFO cargo build (stderr): 
+Nov 25 20:36:45.795 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 4096]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:36:45.795 INFO cargo build (stderr):  --> src/engine/ram.rs:9:1
+Nov 25 20:36:45.795 INFO cargo build (stderr):   |
+Nov 25 20:36:45.795 INFO cargo build (stderr): 9 | #[wasm_bindgen]
+Nov 25 20:36:45.795 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 4096]`
+Nov 25 20:36:45.795 INFO cargo build (stderr):   |
+Nov 25 20:36:45.795 INFO cargo build (stderr):   = help: the following implementations were found:
+Nov 25 20:36:45.795 INFO cargo build (stderr):             <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.795 INFO cargo build (stderr):             <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.795 INFO cargo build (stderr):             <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.795 INFO cargo build (stderr):             <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:36:45.795 INFO cargo build (stderr):           and 16 others
+Nov 25 20:36:45.795 INFO cargo build (stderr): 
+Nov 25 20:36:45.795 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 4096]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:36:45.795 INFO cargo build (stderr):  --> src/engine/ram.rs:9:1
+Nov 25 20:36:45.795 INFO cargo build (stderr):   |
+Nov 25 20:36:45.795 INFO cargo build (stderr): 9 | #[wasm_bindgen]
+Nov 25 20:36:45.795 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 4096]`
+Nov 25 20:36:45.795 INFO cargo build (stderr): 
+Nov 25 20:36:45.803 INFO cargo build (stderr): error: aborting due to 13 previous errors
+Nov 25 20:36:45.803 INFO cargo build (stderr): 
+Nov 25 20:36:45.803 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 20:36:45.809 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:36:45.809 INFO cargo build (stderr): 
+Nov 25 20:36:45.809 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:36:45.810 ERRO Compiling your crate to WebAssembly
+Nov 25 20:37:32.713 INFO Running build command...
+Nov 25 20:37:32.713 INFO Checking rustc version...
+Nov 25 20:37:32.731 INFO rustc version is 32.
+Nov 25 20:37:32.731 INFO Checking crate configuration...
+Nov 25 20:37:32.731 INFO Crate is correctly configured.
+Nov 25 20:37:32.731 INFO Adding wasm-target...
+Nov 25 20:37:32.731 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:37:32.770 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:37:32.771 INFO Adding wasm-target was successful.
+Nov 25 20:37:32.771 INFO Building wasm...
+Nov 25 20:37:32.771 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:37:32.806 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:37:32.917 INFO cargo build (stderr): error[E0573]: expected type, found macro `vec`
+Nov 25 20:37:32.918 INFO cargo build (stderr):   --> src/engine/ram.rs:19:22
+Nov 25 20:37:32.918 INFO cargo build (stderr):    |
+Nov 25 20:37:32.918 INFO cargo build (stderr): 19 |         let sprites: vec<vec<u8>> = vec![
+Nov 25 20:37:32.918 INFO cargo build (stderr):    |                      ---^^^^^^^^^
+Nov 25 20:37:32.918 INFO cargo build (stderr):    |                      |
+Nov 25 20:37:32.919 INFO cargo build (stderr):    |                      did you mean `Vec`?
+Nov 25 20:37:32.919 INFO cargo build (stderr):    |                      did you mean `vec!(...)`?
+Nov 25 20:37:32.920 INFO cargo build (stderr): 
+Nov 25 20:37:32.920 INFO cargo build (stderr): error[E0573]: expected type, found macro `vec`
+Nov 25 20:37:32.920 INFO cargo build (stderr):   --> src/engine/ram.rs:19:26
+Nov 25 20:37:32.921 INFO cargo build (stderr):    |
+Nov 25 20:37:32.921 INFO cargo build (stderr): 19 |         let sprites: vec<vec<u8>> = vec![
+Nov 25 20:37:32.921 INFO cargo build (stderr):    |                          ---^^^^^
+Nov 25 20:37:32.922 INFO cargo build (stderr):    |                          |
+Nov 25 20:37:32.922 INFO cargo build (stderr):    |                          did you mean `Vec`?
+Nov 25 20:37:32.923 INFO cargo build (stderr):    |                          did you mean `vec!(...)`?
+Nov 25 20:37:32.923 INFO cargo build (stderr): 
+Nov 25 20:37:32.955 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:37:32.956 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:32.956 INFO cargo build (stderr):    |
+Nov 25 20:37:32.956 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:32.957 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:37:32.957 INFO cargo build (stderr):    |
+Nov 25 20:37:32.957 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:37:32.957 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.958 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.958 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.959 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.960 INFO cargo build (stderr):            and 16 others
+Nov 25 20:37:32.960 INFO cargo build (stderr): 
+Nov 25 20:37:32.960 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:37:32.960 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:32.960 INFO cargo build (stderr):    |
+Nov 25 20:37:32.960 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:32.960 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:37:32.960 INFO cargo build (stderr): 
+Nov 25 20:37:32.960 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:37:32.960 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:32.960 INFO cargo build (stderr):    |
+Nov 25 20:37:32.960 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:32.960 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:37:32.960 INFO cargo build (stderr):    |
+Nov 25 20:37:32.961 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:37:32.961 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.961 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.961 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.961 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.961 INFO cargo build (stderr):            and 16 others
+Nov 25 20:37:32.961 INFO cargo build (stderr): 
+Nov 25 20:37:32.961 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:37:32.962 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:32.962 INFO cargo build (stderr):    |
+Nov 25 20:37:32.962 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:32.962 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:37:32.962 INFO cargo build (stderr): 
+Nov 25 20:37:32.962 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:37:32.962 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:32.963 INFO cargo build (stderr):    |
+Nov 25 20:37:32.963 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:32.963 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:37:32.963 INFO cargo build (stderr):    |
+Nov 25 20:37:32.963 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:37:32.963 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.963 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.963 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.963 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.963 INFO cargo build (stderr):            and 16 others
+Nov 25 20:37:32.963 INFO cargo build (stderr): 
+Nov 25 20:37:32.963 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:37:32.963 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:32.963 INFO cargo build (stderr):    |
+Nov 25 20:37:32.963 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:32.963 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:37:32.963 INFO cargo build (stderr): 
+Nov 25 20:37:32.963 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:37:32.964 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:32.964 INFO cargo build (stderr):    |
+Nov 25 20:37:32.964 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:32.964 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:37:32.964 INFO cargo build (stderr):    |
+Nov 25 20:37:32.964 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:37:32.964 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.964 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.964 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.968 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.968 INFO cargo build (stderr):            and 16 others
+Nov 25 20:37:32.968 INFO cargo build (stderr): 
+Nov 25 20:37:32.968 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:37:32.968 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:32.969 INFO cargo build (stderr):    |
+Nov 25 20:37:32.969 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:32.969 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:37:32.969 INFO cargo build (stderr): 
+Nov 25 20:37:32.970 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 4096]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:37:32.970 INFO cargo build (stderr):  --> src/engine/ram.rs:9:1
+Nov 25 20:37:32.970 INFO cargo build (stderr):   |
+Nov 25 20:37:32.970 INFO cargo build (stderr): 9 | #[wasm_bindgen]
+Nov 25 20:37:32.970 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 4096]`
+Nov 25 20:37:32.970 INFO cargo build (stderr):   |
+Nov 25 20:37:32.970 INFO cargo build (stderr):   = help: the following implementations were found:
+Nov 25 20:37:32.970 INFO cargo build (stderr):             <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.970 INFO cargo build (stderr):             <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.970 INFO cargo build (stderr):             <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.970 INFO cargo build (stderr):             <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:32.970 INFO cargo build (stderr):           and 16 others
+Nov 25 20:37:32.970 INFO cargo build (stderr): 
+Nov 25 20:37:32.971 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 4096]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:37:32.971 INFO cargo build (stderr):  --> src/engine/ram.rs:9:1
+Nov 25 20:37:32.971 INFO cargo build (stderr):   |
+Nov 25 20:37:32.971 INFO cargo build (stderr): 9 | #[wasm_bindgen]
+Nov 25 20:37:32.971 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 4096]`
+Nov 25 20:37:32.971 INFO cargo build (stderr): 
+Nov 25 20:37:32.974 INFO cargo build (stderr): error: aborting due to 12 previous errors
+Nov 25 20:37:32.974 INFO cargo build (stderr): 
+Nov 25 20:37:32.975 INFO cargo build (stderr): Some errors occurred: E0277, E0573.
+Nov 25 20:37:32.975 INFO cargo build (stderr): For more information about an error, try `rustc --explain E0277`.
+Nov 25 20:37:32.981 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:37:32.982 INFO cargo build (stderr): 
+Nov 25 20:37:32.982 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:37:32.983 ERRO Compiling your crate to WebAssembly
+Nov 25 20:37:48.406 INFO Running build command...
+Nov 25 20:37:48.406 INFO Checking rustc version...
+Nov 25 20:37:48.422 INFO rustc version is 32.
+Nov 25 20:37:48.422 INFO Checking crate configuration...
+Nov 25 20:37:48.422 INFO Crate is correctly configured.
+Nov 25 20:37:48.422 INFO Adding wasm-target...
+Nov 25 20:37:48.423 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:37:48.459 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:37:48.460 INFO Adding wasm-target was successful.
+Nov 25 20:37:48.460 INFO Building wasm...
+Nov 25 20:37:48.460 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:37:48.495 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:37:48.615 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:37:48.615 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:48.615 INFO cargo build (stderr):    |
+Nov 25 20:37:48.615 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:48.615 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:37:48.616 INFO cargo build (stderr):    |
+Nov 25 20:37:48.616 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:37:48.616 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.617 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.618 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.619 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.619 INFO cargo build (stderr):            and 16 others
+Nov 25 20:37:48.619 INFO cargo build (stderr): 
+Nov 25 20:37:48.619 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:37:48.619 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:48.619 INFO cargo build (stderr):    |
+Nov 25 20:37:48.620 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:48.620 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:37:48.620 INFO cargo build (stderr): 
+Nov 25 20:37:48.620 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:37:48.621 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:48.621 INFO cargo build (stderr):    |
+Nov 25 20:37:48.622 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:48.622 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:37:48.623 INFO cargo build (stderr):    |
+Nov 25 20:37:48.623 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:37:48.623 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.623 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.624 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.624 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.624 INFO cargo build (stderr):            and 16 others
+Nov 25 20:37:48.624 INFO cargo build (stderr): 
+Nov 25 20:37:48.624 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:37:48.624 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:48.624 INFO cargo build (stderr):    |
+Nov 25 20:37:48.624 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:48.624 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:37:48.625 INFO cargo build (stderr): 
+Nov 25 20:37:48.625 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:37:48.625 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:48.625 INFO cargo build (stderr):    |
+Nov 25 20:37:48.625 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:48.625 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:37:48.625 INFO cargo build (stderr):    |
+Nov 25 20:37:48.625 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:37:48.625 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.625 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.625 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.625 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.625 INFO cargo build (stderr):            and 16 others
+Nov 25 20:37:48.625 INFO cargo build (stderr): 
+Nov 25 20:37:48.625 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:37:48.625 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:48.626 INFO cargo build (stderr):    |
+Nov 25 20:37:48.626 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:48.626 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:37:48.626 INFO cargo build (stderr): 
+Nov 25 20:37:48.626 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:37:48.626 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:48.626 INFO cargo build (stderr):    |
+Nov 25 20:37:48.626 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:48.626 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:37:48.626 INFO cargo build (stderr):    |
+Nov 25 20:37:48.626 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:37:48.626 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.627 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.627 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.627 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.627 INFO cargo build (stderr):            and 16 others
+Nov 25 20:37:48.627 INFO cargo build (stderr): 
+Nov 25 20:37:48.627 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:37:48.627 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:37:48.627 INFO cargo build (stderr):    |
+Nov 25 20:37:48.627 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:37:48.627 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:37:48.627 INFO cargo build (stderr): 
+Nov 25 20:37:48.627 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 4096]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:37:48.627 INFO cargo build (stderr):  --> src/engine/ram.rs:9:1
+Nov 25 20:37:48.627 INFO cargo build (stderr):   |
+Nov 25 20:37:48.627 INFO cargo build (stderr): 9 | #[wasm_bindgen]
+Nov 25 20:37:48.628 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 4096]`
+Nov 25 20:37:48.628 INFO cargo build (stderr):   |
+Nov 25 20:37:48.628 INFO cargo build (stderr):   = help: the following implementations were found:
+Nov 25 20:37:48.628 INFO cargo build (stderr):             <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.628 INFO cargo build (stderr):             <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.628 INFO cargo build (stderr):             <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.628 INFO cargo build (stderr):             <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:37:48.628 INFO cargo build (stderr):           and 16 others
+Nov 25 20:37:48.628 INFO cargo build (stderr): 
+Nov 25 20:37:48.628 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 4096]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:37:48.628 INFO cargo build (stderr):  --> src/engine/ram.rs:9:1
+Nov 25 20:37:48.628 INFO cargo build (stderr):   |
+Nov 25 20:37:48.628 INFO cargo build (stderr): 9 | #[wasm_bindgen]
+Nov 25 20:37:48.628 INFO cargo build (stderr):   | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 4096]`
+Nov 25 20:37:48.628 INFO cargo build (stderr): 
+Nov 25 20:37:48.632 INFO cargo build (stderr): error: aborting due to 10 previous errors
+Nov 25 20:37:48.633 INFO cargo build (stderr): 
+Nov 25 20:37:48.633 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 20:37:48.638 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:37:48.638 INFO cargo build (stderr): 
+Nov 25 20:37:48.638 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:37:48.639 ERRO Compiling your crate to WebAssembly
+Nov 25 20:41:46.794 INFO Running build command...
+Nov 25 20:41:46.794 INFO Checking rustc version...
+Nov 25 20:41:46.809 INFO rustc version is 32.
+Nov 25 20:41:46.809 INFO Checking crate configuration...
+Nov 25 20:41:46.809 INFO Crate is correctly configured.
+Nov 25 20:41:46.809 INFO Adding wasm-target...
+Nov 25 20:41:46.809 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:41:46.852 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:41:46.854 INFO Adding wasm-target was successful.
+Nov 25 20:41:46.854 INFO Building wasm...
+Nov 25 20:41:46.858 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:41:46.899 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:41:46.945 INFO cargo build (stderr): error: expected one of `,`, `.`, `?`, `}`, or an operator, found `;`
+Nov 25 20:41:46.945 INFO cargo build (stderr):   --> src/engine/ram.rs:18:47
+Nov 25 20:41:46.946 INFO cargo build (stderr):    |
+Nov 25 20:41:46.946 INFO cargo build (stderr): 18 |         let mut ram = Ram { mem: vec![0; 4096]; };
+Nov 25 20:41:46.946 INFO cargo build (stderr):    |                                               ^ expected one of `,`, `.`, `?`, `}`, or an operator here
+Nov 25 20:41:46.947 INFO cargo build (stderr): 
+Nov 25 20:41:46.989 INFO cargo build (stderr): error: unexpected token
+Nov 25 20:41:46.989 INFO cargo build (stderr):   --> src/engine/ram.rs:18:47
+Nov 25 20:41:46.989 INFO cargo build (stderr):    |
+Nov 25 20:41:46.990 INFO cargo build (stderr): 18 |         let mut ram = Ram { mem: vec![0; 4096]; };
+Nov 25 20:41:46.991 INFO cargo build (stderr):    |                                               ^
+Nov 25 20:41:46.991 INFO cargo build (stderr): 
+Nov 25 20:41:46.994 INFO cargo build (stderr): error: aborting due to 2 previous errors
+Nov 25 20:41:46.994 INFO cargo build (stderr): 
+Nov 25 20:41:46.999 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:41:46.999 INFO cargo build (stderr): 
+Nov 25 20:41:47.000 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:41:47.001 ERRO Compiling your crate to WebAssembly
+Nov 25 20:41:55.538 INFO Running build command...
+Nov 25 20:41:55.538 INFO Checking rustc version...
+Nov 25 20:41:55.552 INFO rustc version is 32.
+Nov 25 20:41:55.552 INFO Checking crate configuration...
+Nov 25 20:41:55.553 INFO Crate is correctly configured.
+Nov 25 20:41:55.553 INFO Adding wasm-target...
+Nov 25 20:41:55.553 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:41:55.590 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:41:55.591 INFO Adding wasm-target was successful.
+Nov 25 20:41:55.593 INFO Building wasm...
+Nov 25 20:41:55.593 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:41:55.624 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:41:55.747 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:41:55.748 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:41:55.750 INFO cargo build (stderr):    |
+Nov 25 20:41:55.751 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:41:55.751 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:41:55.751 INFO cargo build (stderr):    |
+Nov 25 20:41:55.751 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:41:55.751 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.751 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.751 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.751 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.751 INFO cargo build (stderr):            and 16 others
+Nov 25 20:41:55.751 INFO cargo build (stderr): 
+Nov 25 20:41:55.751 INFO cargo build (stderr): error[E0277]: the trait bound `[u8; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:41:55.752 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:41:55.752 INFO cargo build (stderr):    |
+Nov 25 20:41:55.752 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:41:55.752 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u8; 16]`
+Nov 25 20:41:55.752 INFO cargo build (stderr): 
+Nov 25 20:41:55.752 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:41:55.752 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:41:55.757 INFO cargo build (stderr):    |
+Nov 25 20:41:55.757 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:41:55.758 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:41:55.759 INFO cargo build (stderr):    |
+Nov 25 20:41:55.760 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:41:55.761 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.761 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.761 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.762 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.762 INFO cargo build (stderr):            and 16 others
+Nov 25 20:41:55.762 INFO cargo build (stderr): 
+Nov 25 20:41:55.762 INFO cargo build (stderr): error[E0277]: the trait bound `[[u8; 64]; 32]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:41:55.762 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:41:55.762 INFO cargo build (stderr):    |
+Nov 25 20:41:55.762 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:41:55.762 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[[u8; 64]; 32]`
+Nov 25 20:41:55.762 INFO cargo build (stderr): 
+Nov 25 20:41:55.762 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:41:55.763 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:41:55.763 INFO cargo build (stderr):    |
+Nov 25 20:41:55.763 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:41:55.763 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:41:55.763 INFO cargo build (stderr):    |
+Nov 25 20:41:55.763 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:41:55.763 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.763 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.763 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.763 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.763 INFO cargo build (stderr):            and 16 others
+Nov 25 20:41:55.763 INFO cargo build (stderr): 
+Nov 25 20:41:55.763 INFO cargo build (stderr): error[E0277]: the trait bound `[u16; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:41:55.763 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:41:55.763 INFO cargo build (stderr):    |
+Nov 25 20:41:55.763 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:41:55.764 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[u16; 16]`
+Nov 25 20:41:55.764 INFO cargo build (stderr): 
+Nov 25 20:41:55.764 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:41:55.764 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:41:55.764 INFO cargo build (stderr):    |
+Nov 25 20:41:55.764 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:41:55.764 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:41:55.764 INFO cargo build (stderr):    |
+Nov 25 20:41:55.764 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:41:55.764 INFO cargo build (stderr):              <&'a [i16] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.764 INFO cargo build (stderr):              <&'a mut [u32] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.765 INFO cargo build (stderr):              <&'a mut [u64] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.765 INFO cargo build (stderr):              <&'a mut [u8] as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:41:55.765 INFO cargo build (stderr):            and 16 others
+Nov 25 20:41:55.765 INFO cargo build (stderr): 
+Nov 25 20:41:55.765 INFO cargo build (stderr): error[E0277]: the trait bound `[bool; 16]: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:41:55.766 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:41:55.766 INFO cargo build (stderr):    |
+Nov 25 20:41:55.766 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:41:55.766 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `[bool; 16]`
+Nov 25 20:41:55.767 INFO cargo build (stderr): 
+Nov 25 20:41:55.767 INFO cargo build (stderr): error: aborting due to 8 previous errors
+Nov 25 20:41:55.767 INFO cargo build (stderr): 
+Nov 25 20:41:55.768 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 20:41:55.772 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:41:55.772 INFO cargo build (stderr): 
+Nov 25 20:41:55.772 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:41:55.773 ERRO Compiling your crate to WebAssembly
+Nov 25 20:43:54.504 INFO Running build command...
+Nov 25 20:43:54.504 INFO Checking rustc version...
+Nov 25 20:43:54.518 INFO rustc version is 32.
+Nov 25 20:43:54.518 INFO Checking crate configuration...
+Nov 25 20:43:54.519 INFO Crate is correctly configured.
+Nov 25 20:43:54.519 INFO Adding wasm-target...
+Nov 25 20:43:54.519 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:43:54.556 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:43:54.557 INFO Adding wasm-target was successful.
+Nov 25 20:43:54.557 INFO Building wasm...
+Nov 25 20:43:54.557 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:43:54.592 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:43:54.727 INFO cargo build (stderr): error[E0277]: the trait bound `std::boxed::Box<[std::vec::Vec<u8>]>: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:43:54.727 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:43:54.727 INFO cargo build (stderr):    |
+Nov 25 20:43:54.727 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:43:54.728 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `std::boxed::Box<[std::vec::Vec<u8>]>`
+Nov 25 20:43:54.728 INFO cargo build (stderr):    |
+Nov 25 20:43:54.728 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:43:54.728 INFO cargo build (stderr):              <std::boxed::Box<[i16]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:43:54.730 INFO cargo build (stderr):              <std::boxed::Box<[i32]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:43:54.730 INFO cargo build (stderr):              <std::boxed::Box<[i8]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:43:54.730 INFO cargo build (stderr):              <std::boxed::Box<[u32]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:43:54.730 INFO cargo build (stderr):            and 7 others
+Nov 25 20:43:54.730 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::IntoWasmAbi` for `std::vec::Vec<std::vec::Vec<u8>>`
+Nov 25 20:43:54.730 INFO cargo build (stderr): 
+Nov 25 20:43:54.730 INFO cargo build (stderr): error[E0277]: the trait bound `std::boxed::Box<[std::vec::Vec<u8>]>: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:43:54.731 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:43:54.732 INFO cargo build (stderr):    |
+Nov 25 20:43:54.733 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:43:54.733 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `std::boxed::Box<[std::vec::Vec<u8>]>`
+Nov 25 20:43:54.734 INFO cargo build (stderr):    |
+Nov 25 20:43:54.734 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:43:54.734 INFO cargo build (stderr):              <std::boxed::Box<[f64]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:43:54.734 INFO cargo build (stderr):              <std::boxed::Box<[i16]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:43:54.735 INFO cargo build (stderr):              <std::boxed::Box<[i8]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:43:54.735 INFO cargo build (stderr):              <std::boxed::Box<[u64]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:43:54.737 INFO cargo build (stderr):            and 7 others
+Nov 25 20:43:54.738 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::FromWasmAbi` for `std::vec::Vec<std::vec::Vec<u8>>`
+Nov 25 20:43:54.738 INFO cargo build (stderr): 
+Nov 25 20:43:54.739 INFO cargo build (stderr): error[E0277]: the trait bound `std::boxed::Box<[bool]>: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:43:54.739 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:43:54.739 INFO cargo build (stderr):    |
+Nov 25 20:43:54.739 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:43:54.739 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `std::boxed::Box<[bool]>`
+Nov 25 20:43:54.739 INFO cargo build (stderr):    |
+Nov 25 20:43:54.739 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:43:54.739 INFO cargo build (stderr):              <std::boxed::Box<[i16]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:43:54.740 INFO cargo build (stderr):              <std::boxed::Box<[i32]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:43:54.740 INFO cargo build (stderr):              <std::boxed::Box<[i8]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:43:54.740 INFO cargo build (stderr):              <std::boxed::Box<[u32]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:43:54.740 INFO cargo build (stderr):            and 7 others
+Nov 25 20:43:54.740 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::IntoWasmAbi` for `std::vec::Vec<bool>`
+Nov 25 20:43:54.740 INFO cargo build (stderr): 
+Nov 25 20:43:54.740 INFO cargo build (stderr): error[E0277]: the trait bound `std::boxed::Box<[bool]>: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:43:54.740 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:43:54.740 INFO cargo build (stderr):    |
+Nov 25 20:43:54.740 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:43:54.740 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `std::boxed::Box<[bool]>`
+Nov 25 20:43:54.740 INFO cargo build (stderr):    |
+Nov 25 20:43:54.740 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:43:54.740 INFO cargo build (stderr):              <std::boxed::Box<[f64]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:43:54.740 INFO cargo build (stderr):              <std::boxed::Box<[i16]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:43:54.740 INFO cargo build (stderr):              <std::boxed::Box<[i8]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:43:54.741 INFO cargo build (stderr):              <std::boxed::Box<[u64]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:43:54.741 INFO cargo build (stderr):            and 7 others
+Nov 25 20:43:54.741 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::FromWasmAbi` for `std::vec::Vec<bool>`
+Nov 25 20:43:54.741 INFO cargo build (stderr): 
+Nov 25 20:43:54.742 INFO cargo build (stderr): error: aborting due to 4 previous errors
+Nov 25 20:43:54.742 INFO cargo build (stderr): 
+Nov 25 20:43:54.742 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 20:43:54.749 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:43:54.749 INFO cargo build (stderr): 
+Nov 25 20:43:54.749 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:43:54.750 ERRO Compiling your crate to WebAssembly
+Nov 25 20:44:00.165 INFO Running build command...
+Nov 25 20:44:00.165 INFO Checking rustc version...
+Nov 25 20:44:00.180 INFO rustc version is 32.
+Nov 25 20:44:00.180 INFO Checking crate configuration...
+Nov 25 20:44:00.181 INFO Crate is correctly configured.
+Nov 25 20:44:00.181 INFO Adding wasm-target...
+Nov 25 20:44:00.181 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Nov 25 20:44:00.219 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Nov 25 20:44:00.220 INFO Adding wasm-target was successful.
+Nov 25 20:44:00.220 INFO Building wasm...
+Nov 25 20:44:00.222 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Nov 25 20:44:00.253 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/chip3D/chip8)
+Nov 25 20:44:00.377 INFO cargo build (stderr): error[E0277]: the trait bound `std::boxed::Box<[std::vec::Vec<u8>]>: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:44:00.377 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:44:00.378 INFO cargo build (stderr):    |
+Nov 25 20:44:00.378 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:44:00.378 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `std::boxed::Box<[std::vec::Vec<u8>]>`
+Nov 25 20:44:00.379 INFO cargo build (stderr):    |
+Nov 25 20:44:00.379 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:44:00.379 INFO cargo build (stderr):              <std::boxed::Box<[i16]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:44:00.379 INFO cargo build (stderr):              <std::boxed::Box<[i32]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:44:00.379 INFO cargo build (stderr):              <std::boxed::Box<[i8]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:44:00.379 INFO cargo build (stderr):              <std::boxed::Box<[u32]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:44:00.379 INFO cargo build (stderr):            and 7 others
+Nov 25 20:44:00.379 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::IntoWasmAbi` for `std::vec::Vec<std::vec::Vec<u8>>`
+Nov 25 20:44:00.379 INFO cargo build (stderr): 
+Nov 25 20:44:00.379 INFO cargo build (stderr): error[E0277]: the trait bound `std::boxed::Box<[std::vec::Vec<u8>]>: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:44:00.379 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:44:00.379 INFO cargo build (stderr):    |
+Nov 25 20:44:00.379 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:44:00.379 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `std::boxed::Box<[std::vec::Vec<u8>]>`
+Nov 25 20:44:00.379 INFO cargo build (stderr):    |
+Nov 25 20:44:00.381 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:44:00.381 INFO cargo build (stderr):              <std::boxed::Box<[f64]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:44:00.382 INFO cargo build (stderr):              <std::boxed::Box<[i16]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:44:00.383 INFO cargo build (stderr):              <std::boxed::Box<[i8]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:44:00.383 INFO cargo build (stderr):              <std::boxed::Box<[u64]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:44:00.384 INFO cargo build (stderr):            and 7 others
+Nov 25 20:44:00.385 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::FromWasmAbi` for `std::vec::Vec<std::vec::Vec<u8>>`
+Nov 25 20:44:00.385 INFO cargo build (stderr): 
+Nov 25 20:44:00.385 INFO cargo build (stderr): error[E0277]: the trait bound `std::boxed::Box<[bool]>: wasm_bindgen::convert::IntoWasmAbi` is not satisfied
+Nov 25 20:44:00.385 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:44:00.385 INFO cargo build (stderr):    |
+Nov 25 20:44:00.386 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:44:00.386 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::IntoWasmAbi` is not implemented for `std::boxed::Box<[bool]>`
+Nov 25 20:44:00.386 INFO cargo build (stderr):    |
+Nov 25 20:44:00.386 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:44:00.387 INFO cargo build (stderr):              <std::boxed::Box<[i16]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:44:00.387 INFO cargo build (stderr):              <std::boxed::Box<[i32]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:44:00.387 INFO cargo build (stderr):              <std::boxed::Box<[i8]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:44:00.387 INFO cargo build (stderr):              <std::boxed::Box<[u32]> as wasm_bindgen::convert::IntoWasmAbi>
+Nov 25 20:44:00.387 INFO cargo build (stderr):            and 7 others
+Nov 25 20:44:00.387 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::IntoWasmAbi` for `std::vec::Vec<bool>`
+Nov 25 20:44:00.387 INFO cargo build (stderr): 
+Nov 25 20:44:00.387 INFO cargo build (stderr): error[E0277]: the trait bound `std::boxed::Box<[bool]>: wasm_bindgen::convert::FromWasmAbi` is not satisfied
+Nov 25 20:44:00.388 INFO cargo build (stderr):   --> src/engine/chip.rs:16:1
+Nov 25 20:44:00.388 INFO cargo build (stderr):    |
+Nov 25 20:44:00.388 INFO cargo build (stderr): 16 | #[wasm_bindgen]
+Nov 25 20:44:00.388 INFO cargo build (stderr):    | ^^^^^^^^^^^^^^^ the trait `wasm_bindgen::convert::FromWasmAbi` is not implemented for `std::boxed::Box<[bool]>`
+Nov 25 20:44:00.389 INFO cargo build (stderr):    |
+Nov 25 20:44:00.389 INFO cargo build (stderr):    = help: the following implementations were found:
+Nov 25 20:44:00.389 INFO cargo build (stderr):              <std::boxed::Box<[f64]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:44:00.389 INFO cargo build (stderr):              <std::boxed::Box<[i16]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:44:00.389 INFO cargo build (stderr):              <std::boxed::Box<[i8]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:44:00.389 INFO cargo build (stderr):              <std::boxed::Box<[u64]> as wasm_bindgen::convert::FromWasmAbi>
+Nov 25 20:44:00.389 INFO cargo build (stderr):            and 7 others
+Nov 25 20:44:00.389 INFO cargo build (stderr):    = note: required because of the requirements on the impl of `wasm_bindgen::convert::FromWasmAbi` for `std::vec::Vec<bool>`
+Nov 25 20:44:00.389 INFO cargo build (stderr): 
+Nov 25 20:44:00.393 INFO cargo build (stderr): error: aborting due to 4 previous errors
+Nov 25 20:44:00.393 INFO cargo build (stderr): 
+Nov 25 20:44:00.393 INFO cargo build (stderr): For more information about this error, try `rustc --explain E0277`.
+Nov 25 20:44:00.398 INFO cargo build (stderr): error: Could not compile `chip8`.
+Nov 25 20:44:00.399 INFO cargo build (stderr): 
+Nov 25 20:44:00.399 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Nov 25 20:44:00.400 ERRO Compiling your crate to WebAssembly
+Dec 16 18:03:01.240 ERRO Compiling your crate to WebAssembly
+Dec 16 18:07:11.398 ERRO Compiling your crate to WebAssembly
+Dec 16 18:08:53.371 ERRO Compiling your crate to WebAssembly
+Dec 16 18:09:32.923 ERRO Compiling your crate to WebAssembly
+Dec 16 18:10:00.523 ERRO Compiling your crate to WebAssembly
+Dec 16 18:18:30.565 ERRO Compiling your crate to WebAssembly
+Dec 16 18:19:04.677 ERRO Compiling your crate to WebAssembly
+Dec 16 18:20:02.617 ERRO Compiling your crate to WebAssembly
+Dec 16 18:20:09.999 ERRO Compiling your crate to WebAssembly
+Dec 16 18:20:57.286 ERRO Compiling your crate to WebAssembly
+Dec 16 18:22:42.124 ERRO Compiling your crate to WebAssembly
+Dec 16 18:23:10.796 ERRO Compiling your crate to WebAssembly
+Dec 16 18:23:38.660 ERRO Compiling your crate to WebAssembly
+Dec 16 18:24:01.125 ERRO Compiling your crate to WebAssembly
+Dec 16 18:36:15.279 ERRO Compiling your crate to WebAssembly
+Dec 16 18:36:35.937 ERRO Compiling your crate to WebAssembly
+Dec 16 18:36:55.452 ERRO Compiling your crate to WebAssembly
+Dec 16 18:40:12.317 ERRO Compiling your crate to WebAssembly
+Dec 16 18:40:42.353 ERRO Compiling your crate to WebAssembly
+Dec 16 18:42:33.864 ERRO Compiling your crate to WebAssembly
+Dec 16 18:42:59.803 ERRO Compiling your crate to WebAssembly
+Dec 16 18:43:40.363 ERRO Compiling your crate to WebAssembly
+Dec 16 23:26:19.049 ERRO Compiling your crate to WebAssembly
+Dec 16 23:57:25.799 ERRO Compiling your crate to WebAssembly
+Dec 17 00:12:15.260 ERRO Compiling your crate to WebAssembly
+Dec 17 00:13:12.746 ERRO Compiling your crate to WebAssembly
+Dec 17 00:14:21.690 ERRO Compiling your crate to WebAssembly
+Dec 17 19:09:29.463 ERRO Compiling your crate to WebAssembly
+Dec 17 20:00:37.662 ERRO Compiling your crate to WebAssembly
+Dec 17 20:02:31.683 ERRO Compiling your crate to WebAssembly
+Dec 17 20:09:06.952 ERRO Compiling your crate to WebAssembly
+Dec 17 20:15:46.270 ERRO Compiling your crate to WebAssembly
+Dec 17 20:17:22.051 ERRO Compiling your crate to WebAssembly
+Dec 17 20:23:20.627 ERRO Compiling your crate to WebAssembly
+Dec 18 18:45:21.396 ERRO Compiling your crate to WebAssembly
+Dec 18 19:00:39.649 ERRO Compiling your crate to WebAssembly
+Dec 18 19:53:38.935 ERRO Compiling your crate to WebAssembly
+Dec 18 19:54:39.775 ERRO Compiling your crate to WebAssembly
+Dec 18 20:01:52.870 ERRO Compiling your crate to WebAssembly
+Dec 18 20:02:19.294 ERRO Compiling your crate to WebAssembly
+Dec 18 20:08:58.058 ERRO Compiling your crate to WebAssembly
+Dec 18 20:09:49.844 ERRO Compiling your crate to WebAssembly
+Dec 18 20:12:25.829 ERRO Compiling your crate to WebAssembly
+Dec 18 20:12:44.439 INFO Running build command...
+Dec 18 20:12:44.439 INFO Checking rustc version...
+Dec 18 20:12:44.461 INFO rustc version is 33.
+Dec 18 20:12:44.461 INFO Checking crate configuration...
+Dec 18 20:12:44.461 INFO Crate is correctly configured.
+Dec 18 20:12:44.461 INFO Adding wasm-target...
+Dec 18 20:12:44.461 INFO Running "rustup" "target" "add" "wasm32-unknown-unknown"
+Dec 18 20:12:44.501 INFO rustup (stderr): info: component 'rust-std' for target 'wasm32-unknown-unknown' is up to date
+Dec 18 20:12:44.502 INFO Adding wasm-target was successful.
+Dec 18 20:12:44.502 INFO Building wasm...
+Dec 18 20:12:44.502 INFO Running "cargo" "build" "--lib" "--release" "--target" "wasm32-unknown-unknown"
+Dec 18 20:12:44.532 INFO cargo build (stderr):    Compiling chip8 v0.1.0 (/home/pierre/programming/rust/hobby/chip8-rust/chip8)
+Dec 18 20:12:44.640 INFO cargo build (stderr): error: unknown attribute
+Dec 18 20:12:44.640 INFO cargo build (stderr):   --> src/lib.rs:23:16
+Dec 18 20:12:44.640 INFO cargo build (stderr):    |
+Dec 18 20:12:44.641 INFO cargo build (stderr): 23 | #[wasm_bindgen(start)]
+Dec 18 20:12:44.641 INFO cargo build (stderr):    |                ^^^^^
+Dec 18 20:12:44.641 INFO cargo build (stderr): 
+Dec 18 20:12:44.647 INFO cargo build (stderr): error: aborting due to previous error
+Dec 18 20:12:44.648 INFO cargo build (stderr): 
+Dec 18 20:12:44.652 INFO cargo build (stderr): error: Could not compile `chip8`.
+Dec 18 20:12:44.652 INFO cargo build (stderr): 
+Dec 18 20:12:44.653 INFO cargo build (stderr): To learn more, run the command again with --verbose.
+Dec 18 20:12:44.653 ERRO Compiling your crate to WebAssembly
+Dec 18 20:13:46.316 ERRO Compiling your crate to WebAssembly
+Dec 18 21:38:22.654 ERRO Compiling your crate to WebAssembly
+Dec 18 21:38:45.485 ERRO Compiling your crate to WebAssembly
+Dec 18 21:38:58.740 ERRO Compiling your crate to WebAssembly
+Dec 18 21:39:22.420 ERRO Compiling your crate to WebAssembly
+Dec 22 18:14:40.366 ERRO Compiling your crate to WebAssembly
+Dec 22 18:15:44.934 ERRO Compiling your crate to WebAssembly
+Dec 22 18:33:44.373 ERRO Compiling your crate to WebAssembly
+Dec 22 18:33:59.485 ERRO Compiling your crate to WebAssembly
+Dec 22 18:34:36.953 ERRO Compiling your crate to WebAssembly
+Dec 22 18:34:52.562 ERRO Compiling your crate to WebAssembly
+Dec 22 18:40:48.682 ERRO Compiling your crate to WebAssembly
+Dec 22 18:41:02.535 ERRO Compiling your crate to WebAssembly
+Dec 22 18:41:42.659 ERRO Compiling your crate to WebAssembly
+Dec 22 18:41:57.883 ERRO Compiling your crate to WebAssembly
+Dec 22 18:42:27.952 ERRO Compiling your crate to WebAssembly
+Dec 22 18:44:04.279 ERRO Compiling your crate to WebAssembly
+Dec 22 18:47:21.280 ERRO Compiling your crate to WebAssembly
+Dec 22 18:56:09.625 ERRO Compiling your crate to WebAssembly
+Dec 22 18:56:32.214 ERRO Compiling your crate to WebAssembly
+Dec 22 18:56:49.964 ERRO Compiling your crate to WebAssembly
+Dec 22 19:22:54.776 ERRO Compiling your crate to WebAssembly
+Dec 22 19:24:14.953 ERRO Compiling your crate to WebAssembly
+Dec 22 19:27:32.459 ERRO Compiling your crate to WebAssembly
+Dec 22 19:27:54.211 ERRO Compiling your crate to WebAssembly
+Dec 22 19:28:36.727 ERRO Compiling your crate to WebAssembly
+Dec 22 19:28:52.382 ERRO Compiling your crate to WebAssembly
+Dec 22 19:31:49.790 ERRO Compiling your crate to WebAssembly
+Dec 22 19:32:10.139 ERRO Compiling your crate to WebAssembly
+Dec 22 19:32:22.810 ERRO Compiling your crate to WebAssembly
+Dec 22 19:53:06.415 ERRO Compiling your crate to WebAssembly
+Dec 22 19:53:27.318 ERRO Compiling your crate to WebAssembly
+Dec 22 19:55:01.563 ERRO Compiling your crate to WebAssembly
+Dec 22 19:58:43.719 ERRO Compiling your crate to WebAssembly
+Dec 22 20:50:18.072 ERRO Compiling your crate to WebAssembly
+Dec 22 20:56:20.285 ERRO Compiling your crate to WebAssembly
+Dec 22 21:12:44.073 ERRO Compiling your crate to WebAssembly
+Dec 22 21:26:09.999 ERRO Compiling your crate to WebAssembly
+Dec 22 21:27:30.552 ERRO Compiling your crate to WebAssembly
+Dec 23 15:33:53.871 ERRO Compiling your crate to WebAssembly
+Dec 23 15:34:35.615 ERRO Compiling your crate to WebAssembly
+Dec 23 15:39:14.142 ERRO Compiling your crate to WebAssembly
+Dec 23 15:40:39.250 ERRO Compiling your crate to WebAssembly
+Dec 23 22:58:26.118 ERRO Compiling your crate to WebAssembly
+Dec 23 23:25:05.545 ERRO Compiling your crate to WebAssembly
+Dec 23 23:25:53.271 ERRO Compiling your crate to WebAssembly
+Dec 23 23:31:21.605 ERRO Compiling your crate to WebAssembly
+Dec 23 23:31:38.815 ERRO Compiling your crate to WebAssembly
+Dec 23 23:33:45.681 ERRO Compiling your crate to WebAssembly
+Dec 23 23:36:03.537 ERRO Compiling your crate to WebAssembly
+Dec 23 23:36:20.285 ERRO Compiling your crate to WebAssembly
+Dec 23 23:36:53.129 ERRO Compiling your crate to WebAssembly
+Dec 23 23:37:14.420 ERRO Compiling your crate to WebAssembly
+Dec 23 23:39:24.804 ERRO Compiling your crate to WebAssembly
+Dec 23 23:42:02.084 ERRO Compiling your crate to WebAssembly
+Dec 23 23:42:43.009 ERRO Compiling your crate to WebAssembly
+Dec 23 23:48:15.436 ERRO Compiling your crate to WebAssembly
+Dec 23 23:48:31.479 ERRO Compiling your crate to WebAssembly
+Dec 23 23:53:56.744 ERRO Compiling your crate to WebAssembly
+Dec 23 23:55:06.036 ERRO Compiling your crate to WebAssembly
+Dec 23 23:55:33.877 ERRO Compiling your crate to WebAssembly
+Dec 24 00:28:27.673 ERRO Compiling your crate to WebAssembly
+Dec 24 01:44:50.850 ERRO Compiling your crate to WebAssembly
+Dec 24 10:51:41.712 ERRO Compiling your crate to WebAssembly
+Dec 24 11:20:57.966 ERRO Compiling your crate to WebAssembly
+Dec 24 12:06:09.259 ERRO Compiling your crate to WebAssembly
+Dec 24 13:50:59.738 ERRO Compiling your crate to WebAssembly
+Dec 24 14:05:41.698 ERRO Compiling your crate to WebAssembly
